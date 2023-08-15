@@ -4,7 +4,7 @@
 
 This model classifies 14 different species of sharks as either harmful or safe to help people protect themselves in the water. It was trained on and uses the resnet18 model. The dataset originates from Kaggle, and uses an imagenet.py program to detect whether the shark generated is deadly or safe.
 
-Running the Project
+# Running the Project
 
 1. Download the data (https://drive.google.com/drive/folders/1dtzYjvbSpwbALeBxCDmG8ixoRy7PgoqK)
 2. Install the jetson-inference library and python3 in your nano
