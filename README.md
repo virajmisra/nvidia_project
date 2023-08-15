@@ -14,3 +14,5 @@ This model classifies 14 different species of sharks as either harmful or safe t
 6. Establish the DATASET variable (DATASET=data/harmful_safe)
 7. Process an image with this command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels $DATASET/test/Safe/shark3.jpg shark.jpg
 8. Open the file labeled "shark.jpg" and view the result.
+
+Video Demonstration: https://drive.google.com/file/d/1iK0pyR-fiwUUc-U9TLwRjKbhdYjfBRSl/view
